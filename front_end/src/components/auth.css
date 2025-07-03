@@ -1,0 +1,77 @@
+.auth-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/istockphoto-1283432364-612x612.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 1rem;
+}
+
+.finman-big {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.form-box {
+  background-color: rgba(103, 161, 248, 0.95);
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  max-height: 550px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.form-box input {
+  font-size: 3rem;
+  padding: 1rem;
+  width: 100%;
+  max-height: 45px;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #91a8ca;
+}
+
+.form-box h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.0rem;
+  text-align: center;
+  color: #000;
+}
+.form-box label {
+  font-size: 1.0rem;        /* ⬅️ Increase label font size */
+  margin-bottom: 0.5rem;    /* ⬅️ Add spacing below label */
+  font-weight: 150;         /* Optional: Make it slightly bold */
+  color: #000;              /* Optional: Ensure label is readable */
+}
+.form-box p {
+  color: #000;            /* Or #fff if on dark background */
+  font-size: 1rem;
+  line-height: 1.0;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-weight: 150;
+}
+
+.form-box button {
+  font-size: 1rem;
+  padding: 1rem;
+  width: 100%;
+  background-color: #88addd;
+  color: #2724f5;
+  border: none;
+  max-height: 45px;
+  border-radius: 6px;
+  cursor: pointer;
+}

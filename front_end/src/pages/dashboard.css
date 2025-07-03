@@ -1,0 +1,54 @@
+/* dashboard.css */
+.dashboard-wrapper {
+    padding: 40px;
+    background-color: #acf3ef;
+    font-size: 20px; /* Increase base font size */
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section h1, .section h2, .section h3, .section h4, .section h5 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .section.two-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .column {
+    flex: 1 1 48%;
+    max-width: 550px;
+    padding-left: 50px;
+  }
+  
+  
+  form label {
+    font-size: 22px;
+    font-weight: 300;
+    
+  }
+  
+  input, select {
+    border: 1px solid black;
+    font-size: 20px !important;
+    padding: 12px !important;
+    
+  }
+  
+  button {
+    font-size: 20px !important;
+    padding: 12px 24px !important;
+  }
+  
+  @media (max-width: 768px) {
+    .column {
+      flex: 1 1 100%;
+    }
+  }
+  
